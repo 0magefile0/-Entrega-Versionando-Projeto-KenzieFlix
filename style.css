@@ -1,0 +1,115 @@
+
+body{
+    background-color: #000000;
+}    
+#container2{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.img-box{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    max-width: 100%;
+    transition: all 0.3s;
+    
+    
+}
+.img-box:hover{
+    transform: scale(1.2);
+}
+.box{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    opacity: 0.5;
+    margin: 10px; 
+    margin-bottom: 100px;
+    
+}
+.box:hover{
+    transform: scale(1.1);
+    border-radius: 8px;
+    opacity: 1;
+}
+.box-p{
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    
+}
+.img-box1{
+    
+    overflow: hidden;
+}
+.box1{
+    
+    
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    margin: 10px;
+   
+}
+
+.box1:hover{
+    transform: scale(1.1);
+    border-radius: 8px;
+    
+}
+.box2{
+    
+    display: flex;
+    justify-content: center;
+    
+}    
+#logo{
+    width: 229px;
+    height: 60px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;   
+}
+
+.box3{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;    
+    
+}
+
+.img_circulo{
+    width: 30px;
+    height: 30px;
+      
+}
+button{
+    display: flex;
+    
+}
+.botao{
+    padding: 15px 44px;
+    margin: 0 auto;
+    background-color: #1E1E20;
+    border: none;
+    border-radius: 8px;
+    color: white; 
+    transition: all 0.3s;
+    
+}  
+.botao:hover{
+    background-color: #3e3e42;
+    
+}  
+h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
